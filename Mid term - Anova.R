@@ -1,7 +1,7 @@
 library(tidyr)
 library(ggplot2)
 
-dat = read.table("Midterm/Dataset_BIOS/tephritis.txt", header=T)
+dat = read.table("Dataset_BIOS/tephritis.txt", header=T)
 dat$Patry = as.factor(dat$Patry)
 dat$Hostplant = as.factor(dat$Hostplant)
 dat$Sex = as.factor(dat$Sex)
